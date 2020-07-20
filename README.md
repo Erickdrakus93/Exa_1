@@ -11,7 +11,7 @@ La complejidad de esta subrutina tiene complejidad temporal es $O(n)$, donde $n$
 
 ##Análisis del segundo ejercicio.
 Este problema es solucionado creando una subrutina de acumulación, con la restricción de que el valor inicial se actualizara con cada iteración hasta que sea menor igual que la segunda entrada que consume la función.
-**Sketch de complejidad temporal como de espacio**
+**Análisis de complejidad temporal como de espacio**
 Esta tendrá complejidad la distancia que tenga del primer termino,hasta el final, digamos
 $s=m-n$, entonces su complejidad temporal es $O(s^2)$.
 El costo de memoria sera el  stack de memoria de lo que consume, entonce su complejidad temporal es O(n*m);
