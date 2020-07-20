@@ -39,31 +39,31 @@ class Stack {
   constructor() {
     this.items = [];
 
-  }
+  };
   //functions to implement
   push(element){
     this.items.push(element);
-  }
+  };
   pop(){
-    if(this.items.length==0){
+    if(this.items.length===0){
       return "underflow";
-    }
+    };
     return this.items.pop();
-  }
+  };
   peek(){
     return this.items[items.length - 1];
-  }
+  };
   is_Empty(){
-    return this.items == 0;
-  }
+    return this.items === 0;
+  };
   print_Stack(){
     var str = "";
     for (var i = 0; i <this.items.length; i++) {
     str+=this.items[i] + " ";
-  }
+  };
   return  str;
-}
-//Solution using the datastructure of Stack.
+};
+
 function is_balanced(string){
   Stack st = new Stack();
   for(var char in string.split('')){
