@@ -40,6 +40,8 @@ En otro caso al final de hacer las coincidencias, este nos regresara true.
 Por el tamaño de la cadena que le demos de comer a esta subrutina, entonces el orden de crecimiento de tiempo sera $O(n^2)$.
 En cuestión de la memoria, esta tendrá un costo del Stack(heap) de tamaño $O(n^2).
 
+
+
 ##Análisis del sexto ejercicio.
 En este ejercicio se hace un diseño de compatibilidad de salones por clase, entonces lo que se hace es hacer una lógica,
 pues cada clase tiene un rango de duración, así que diremos que una clase tiene compatibilidad con un salón de clases, si no interfiere con las clases ya asignados, en otro caso, se usa otro salón de clases, todo esto teniendo una estructura iterativa.
